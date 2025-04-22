@@ -6,14 +6,16 @@
     <title>My Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        primary: '#3b82f6',
-                        secondary: '#1e40af',
-                        dark: '#1f2937',
+                        primary: 'black',
+                        secondary:'yellow',
+                        dark: 'black',
                     }
                 }
             }
@@ -34,7 +36,7 @@
     <!-- Navigation -->
     <nav id="navbar" class="fixed w-full z-10 transition-nav bg-transparent">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-white text-shadow">MY<span class="text-success">PORTFOLIO</span></a>
+            <a href="#" class="text-2xl font-bold text-white text-shadow">MY<span class="text-danger">Portfolio</span></a>
             <div class="hidden md:flex space-x-6">
                 <a href="#home" class="text-white hover:text-primary transition">Home</a>
                 <a href="#about" class="text-white hover:text-primary transition">About</a>
